@@ -1,0 +1,70 @@
+/*div{
+  border: 1px solid red;
+}*/
+.empty-space{
+  min-height: 200px;
+}
+
+.nav{
+}
+
+.btn-primary-outline {
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.nav li{
+  text-align: bottom;
+  display: inline;
+  padding: 10px;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.bigger-header{
+  font-size: 600%;
+}
+
+.big-image{
+  background-repeat: no-repeat;
+  padding-top: 10px;
+  text-align: center;
+  background-image: url(../images/website_banner2.png);
+  background-size: cover;
+}
+.big-image h1{
+  color: white;
+}
+.big-image p{
+  color: white;
+}
+
+.subscribe{
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  border-color: white;
+  color: white;
+  font-size: 22px;
+}
+/*----------------------About---------------------------*/
+
+.about-copy{
+  color: black;
+  font-size: 23px;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  line-height: 1.25;
+  vertical-align: middle;
+
+}
+.lucas-image{
+  width: 330px;
+  height: 330px;
+
+}
