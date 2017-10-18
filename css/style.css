@@ -1,10 +1,9 @@
 /*------------------Top Bar----------------------*/
-.empty-space{
-  min-height: 200px;
+
+.nav {
+
 }
 
-.nav{
-}
 
 .btn-primary-outline {
   background-color: transparent;
@@ -41,7 +40,7 @@
 }
 
 .subscribe{
-  position: fixed;
+  position: absolute;
   top: 10px;
   right: 10px;
   border-color: white;
@@ -72,12 +71,21 @@
 
 .previous-description{
   padding-top: 10px;
-  padding-left: 400px;
-  padding-right: 400px;
-  text-align: left;
   font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  width: 450px;
+  text-align: left;
 }
 
+@media screen and (max-width:766px;){
+  .episode-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
 /*----------------------About---------------------------*/
 
 .about-copy{
@@ -115,11 +123,48 @@
   text-align: right;
 }
 
+.john-image{
+  width: 330px;
+  height: 330px;
+}
+
+@media screen and (max-width: 766px) {
+  .john-align{
+    text-align: left;
+  }
+  .title2{
+    text-align: center;
+  }
+  .title{
+    text-align: center;
+  }
+  .lucas-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .john-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 766px){
+  .john-text{
+    float: left;
+  }
+  .john-pic{
+    float:right;
+  }
+
+}
+
 /*----------------------Archive---------------------------*/
 
 .archive-header{
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   font-size: 60px;
 }
 
@@ -127,6 +172,16 @@
   padding-top: 10px;
 }
 
+td{
+  padding: 15px;
+}
+
+th{
+  padding:15px;
+  font-size: 20px;
+}
+
 .table-border{
-  border-color: black;
+  margin-left: auto;
+  margin-right: auto;
 }
