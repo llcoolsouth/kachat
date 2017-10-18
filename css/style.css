@@ -1,6 +1,4 @@
-/*div{
-  border: 1px solid red;
-}*/
+/*------------------Top Bar----------------------*/
 .empty-space{
   min-height: 200px;
 }
@@ -50,6 +48,35 @@
   color: white;
   font-size: 22px;
 }
+/*----------------------Index---------------------------*/
+.latest-episode{
+  background-color: black;
+  color: white;
+}
+
+.episode-img{
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.latest-description{
+  font-size: 20px;
+}
+
+.previous-episodes{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.previous-description{
+  padding-top: 10px;
+  padding-left: 400px;
+  padding-right: 400px;
+  text-align: left;
+  font-weight: bold;
+}
 
 /*----------------------About---------------------------*/
 
@@ -98,4 +125,8 @@
 
 .table-time{
   padding-top: 10px;
+}
+
+.table-border{
+  border-color: black;
 }
