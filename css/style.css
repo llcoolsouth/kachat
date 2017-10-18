@@ -50,6 +50,7 @@
   color: white;
   font-size: 22px;
 }
+
 /*----------------------About---------------------------*/
 
 .about-copy{
@@ -61,10 +62,40 @@
   padding-bottom: 40px;
   line-height: 1.25;
   vertical-align: middle;
-
 }
+
+.about-top{
+  padding-top: 20px;
+}
+
 .lucas-image{
   width: 330px;
   height: 330px;
+}
 
+.title{
+  padding-top: 25px;
+  padding-bottom: 5px;
+}
+
+.title2{
+  padding-top: 25px;
+  padding-bottom: 5px;
+  text-align: right;
+}
+
+.john-align{
+  text-align: right;
+}
+
+/*----------------------Archive---------------------------*/
+
+.archive-header{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 60px;
+}
+
+.table-time{
+  padding-top: 10px;
 }
