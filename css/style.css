@@ -53,6 +53,15 @@
   color: white;
 }
 
+.latest-btn{
+  color: white;
+  padding-left: 0px;
+}
+
+.latest-btn a:hover{
+  color: yellow;
+}
+
 .episode-img{
   padding-top: 20px;
   padding-left: 20px;
@@ -78,14 +87,16 @@
   text-align: left;
 }
 
-@media screen and (max-width:766px;){
-  .episode-img{
+@media screen and (max-width: 1200px) {
+  .latest-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height:500px;
+    width:500px;
   }
-
 }
+
 /*----------------------About---------------------------*/
 
 .about-copy{
@@ -128,7 +139,7 @@
   height: 330px;
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 1200px) {
   .john-align{
     text-align: left;
   }
@@ -150,7 +161,7 @@
   }
 }
 
-@media screen and (min-width: 766px){
+@media screen and (min-width: 1200px){
   .john-text{
     float: left;
   }
@@ -188,10 +199,18 @@ th{
 
 /*------------------------Connect--------------------------------*/
 
-.social-media-imgs{
-  padding: 15px;
-  width: 300px;
-  height: 300px;
+.connect-img{
+  height:260px;
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.connect-text{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
 }
 
 /*------------------------Episode pages--------------------------*/
