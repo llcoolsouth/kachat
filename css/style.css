@@ -72,7 +72,7 @@
 }
 
 .latest-description{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .previous-episodes{
@@ -82,7 +82,7 @@
 
 .previous-description{
   padding-top: 10px;
-  font-weight: bold;
+  font-size:18px;
   margin-left: auto;
   margin-right: auto;
   width: 450px;
@@ -113,7 +113,7 @@
 
 .about-copy{
   color: black;
-  font-size: 23px;
+  font-size: 18px;
   padding-top: 40px;
   padding-left: 50px;
   padding-right: 50px;
@@ -211,11 +211,25 @@ th{
 /*------------------------Connect--------------------------------*/
 
 .connect-img{
-  height:260px;
+  height:100px;
+
+}
+
+.connect-boxes{
   padding-top: 25px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+.connect-copy{
+  padding-top: 25px;
+  margin-left:auto;
+  margin-right: auto;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .connect-text{
