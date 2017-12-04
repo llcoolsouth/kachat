@@ -60,10 +60,6 @@
   padding-left: 0px;
 }
 
-.latest-btn a:hover{
-  color: yellow;
-}
-
 .episode-img{
   padding-top: 20px;
   padding-left: 20px;
@@ -106,6 +102,27 @@
     margin-right: auto;
     height:500px;
     width:500px;
+  }
+
+  .btn-primary-outline{
+    font-size: 40px;
+  }
+
+  .latest-description{
+    font-size: 25px;
+  }
+
+  .postdate{
+    font-size: 18px;
+  }
+
+  .previous-description{
+    padding-top: 10px;
+    font-size:25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    text-align: left;
   }
 }
 
@@ -165,13 +182,21 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 440px;
+    height: 440px;
   }
   .john-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 440px;
+    height: 440px;
+  }
+  .about-copy{
+    font-size: 30px;
   }
 }
+
 
 @media screen and (min-width: 1200px){
   .john-text{
@@ -196,6 +221,7 @@
 
 td{
   padding: 15px;
+  font-size: 18px;
 }
 
 th{
@@ -206,6 +232,15 @@ th{
 .table-border{
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 1200px){
+  th{
+    font-size: 27px;
+  }
+  td{
+    font-size: 25px;
+  }
 }
 
 /*------------------------Connect--------------------------------*/
@@ -238,6 +273,15 @@ th{
   font-size: 20px;
 }
 
+@media screen and (max-width: 1200px){
+  .connect-copy{
+    font-size:25px;
+  }
+  .connect-text{
+    font-size:26px;
+  }
+}
+
 /*------------------------Episode pages--------------------------*/
 
 .episode-img-archive{
@@ -248,7 +292,7 @@ th{
 }
 
 .archive-description{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .archive-episode{
@@ -274,5 +318,9 @@ th{
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .archive-description{
+    font-size: 25px;
   }
 }
