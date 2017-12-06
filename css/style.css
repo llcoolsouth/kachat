@@ -83,6 +83,7 @@
   margin-right: auto;
   width: 450px;
   text-align: left;
+  padding-bottom: 20px;
 }
 
 .latest-img{
@@ -103,22 +104,23 @@
     height:500px;
     width:500px;
   }
-
+}
+@media screen and (max-width: 1000px){
   .btn-primary-outline{
     font-size: 40px;
   }
 
   .latest-description{
-    font-size: 25px;
+    font-size: 35px;
   }
 
   .postdate{
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .previous-description{
     padding-top: 10px;
-    font-size:25px;
+    font-size:35px;
     margin-left: auto;
     margin-right: auto;
     width: 450px;
@@ -192,8 +194,11 @@
     width: 440px;
     height: 440px;
   }
+}
+
+@media screen and (max-width: 1000px){
   .about-copy{
-    font-size: 30px;
+    font-size: 35px;
   }
 }
 
@@ -212,11 +217,12 @@
 .archive-header{
   text-align: center;
   padding-top: 20px;
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .table-time{
   padding-top: 10px;
+  padding-bottom: 40px;
 }
 
 td{
@@ -234,12 +240,12 @@ th{
   margin-right: auto;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1000px){
   th{
-    font-size: 27px;
+    font-size: 37px;
   }
   td{
-    font-size: 25px;
+    font-size: 35px;
   }
 }
 
@@ -273,12 +279,12 @@ th{
   font-size: 20px;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1000px){
   .connect-copy{
-    font-size:25px;
+    font-size:35px;
   }
   .connect-text{
-    font-size:26px;
+    font-size:36px;
   }
 }
 
@@ -313,7 +319,7 @@ th{
   padding-bottom: 10px;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1000px){
   .episode-img-archive{
     display: block;
     margin-left: auto;
@@ -321,6 +327,6 @@ th{
   }
 
   .archive-description{
-    font-size: 25px;
+    font-size: 35px;
   }
 }
